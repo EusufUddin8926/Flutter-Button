@@ -28,8 +28,10 @@ class MyHomePage extends StatelessWidget {
       elevation: 6,
       shadowColor: Colors.black,
       padding: EdgeInsets.all(12),
-      shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.all(Radius.circular(12))));
+    shape: RoundedRectangleBorder(
+      borderRadius: BorderRadius.all(Radius.circular(12))
+    )
+  );
 
   SnakbarMsg(String msg, context) {
     return ScaffoldMessenger.of(context)
